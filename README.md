@@ -1,38 +1,38 @@
-﻿# Akaunting™
+Акаунтинг™
 
 [![Release](https://img.shields.io/github/v/release/akaunting/akaunting?label=release)](https://github.com/akaunting/akaunting/releases)
 ![Downloads](https://img.shields.io/github/downloads/akaunting/akaunting/total?label=downloads)
 [![Translations](https://badges.crowdin.net/akaunting/localized.svg)](https://crowdin.com/project/akaunting)
 [![Tests](https://img.shields.io/github/actions/workflow/status/akaunting/akaunting/tests.yml?label=tests)](https://github.com/akaunting/akaunting/actions)
 
-Online accounting software designed for small businesses and freelancers. Akaunting is built with modern technologies such as Laravel, VueJS, Tailwind, RESTful API etc. Thanks to its modular structure, Akaunting provides an awesome App Store for users and developers.
+Онлајн софтвер за книговодство дизајниран за мали бизниси и фриленсери. Акаунтинг е изграден со модерни технологии како Laravel, VueJS, Tailwind, RESTful API итн. Благодарение на неговата модуларна структура, Акаунтинг обезбедува неверојатна Продавница за апликации (App Store) за корисници и програмери.
 
-* [Home](https://akaunting.com) - The house of Akaunting
-* [Forum](https://akaunting.com/forum) - Ask for support
-* [Documentation](https://akaunting.com/hc/docs) - Learn how to use
-* [Developer Portal](https://developer.akaunting.com) - Generate passive income
-* [App Store](https://akaunting.com/apps) - Extend your Akaunting
-* [Translations](https://crowdin.com/project/akaunting) - Help us translate Akaunting
+* [Home](https://akaunting.com) - Официјална страница
+* [Forum](https://akaunting.com/forum) - Побарај поддршка
+* [Documentation](https://akaunting.com/hc/docs) - Научи како да користиш
+* [Developer Portal](https://developer.akaunting.com) - Создавај пасивен приход
+* [App Store](https://akaunting.com/apps) - Проšири го твојот Акаунтинг
+* [Translations](https://crowdin.com/project/akaunting) - Помогни ни да го преведеме Акаунтинг
 
-## Requirements
+## Барања
 
-* PHP 8.1 or higher
-* Database (e.g.: MySQL, PostgreSQL, SQLite)
-* Web Server (eg: Apache, Nginx, IIS)
-* [Other libraries](https://akaunting.com/hc/docs/on-premise/requirements/)
+* PHP 8.1 или понова верзија
+* База на податоци (на пр.: MySQL, PostgreSQL, SQLite)
+* Веб-сервер (на пр.: Apache, Nginx, IIS)
+* [Други библиотеки](https://akaunting.com/hc/docs/on-premise/requirements/)
 
-## Framework
+## Фрејмворк
 
-Akaunting uses [Laravel](http://laravel.com), the best existing PHP framework, as the foundation framework and [Module](https://github.com/akaunting/module) package for Apps.
+Акаунтинг користи [Laravel](http://laravel.com), најдобриот постоечки PHP-фрејмворк, како основен фрејмворк и пакетот [Module](https://github.com/akaunting/module) за Апликации.
 
-## Installation
+## Инсталација
 
-* Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
-* Clone the repository: `git clone https://github.com/akaunting/akaunting.git`
-* Install dependencies: `composer install ; npm install ; npm run dev`
-* Install Akaunting:
+* Инсталирај [Composer](https://getcomposer.org/download) и [Npm](https://nodejs.org/en/download)
+* Клонирај го репозиториумот: `git clone https://github.com/akaunting/akaunting.git`
+* Инсталирај ги зависностите: `composer install ; npm install ; npm run dev`
+* Инсталирај Акаунтинг:
 
-```bash
+```
 php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
 ```
 
