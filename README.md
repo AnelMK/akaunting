@@ -36,15 +36,16 @@
 php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
 ```
 
-* Create sample data (optional): `php artisan sample-data:seed`
+* Создај примерни податоци (опционално): 'php artisan sample-data:seed'
 
-## Contributing
+## Придонесување
 
-Please, be very clear on your commit messages and Pull Requests, empty Pull Request messages may be rejected without reason.
+Те молиме, обиди се да бидеш јасен во твоите commit пораки и Pull Requests. Празни пораки во Pull Request може да бидат одбиени без дополнителна причина.
 
-When contributing code to Akaunting, you must follow the PSR coding standards. The golden rule is: Imitate the existing Akaunting code.
+При придонесувањето на код во Акаунтинг, мора да ги следиш PSR стандардите за кодирање. Златното правило е: Имитирај го постоечкиот код на Акаунтинг.
 
-Please note that this project is released with a [Contributor Code of Conduct](https://akaunting.com/conduct). *By participating in this project you agree to abide by its terms*.
+Те молиме имај предвид дека овој проект е објавен со [Code of Conduct](https://akaunting.com/conduct). *Со учество во овој проект, се согласуваш да ги почитуваш овие услови*.
+
 
 ## Translation
 
